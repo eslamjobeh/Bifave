@@ -1,5 +1,6 @@
 s = document.querySelector(".header").clientHeight
 y = document.querySelector(".page-1")
+console.log(y.style.height = "calc(100vh - " + s + "px)")
 
 window.onscroll = function() {
 	if (window.scrollY >= 600) {
